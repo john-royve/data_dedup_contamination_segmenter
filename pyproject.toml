@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "john-royve-searchrank_jd015"
+name = "john-royve-data_dedup_contamination_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对搜索排序算法工程师·数据去重与污染检测相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://john-royve.github.io"
-Repository = "https://github.com/john-royve/searchrank_jd015"
-Issues = "https://github.com/john-royve/searchrank_jd015/issues"
+Repository = "https://github.com/john-royve/data_dedup_contamination_segmenter"
+Issues = "https://github.com/john-royve/data_dedup_contamination_segmenter/issues"
 
 [project.scripts]
-searchrank_jd015 = "searchrank_jd015:main"
+data_dedup_contamination_segmenter = "data_dedup_contamination_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["searchrank_jd015"]
+py-modules = ["data_dedup_contamination_segmenter"]
